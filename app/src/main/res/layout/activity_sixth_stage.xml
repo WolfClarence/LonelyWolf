@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xueyuan"
+    tools:context=".stageActivities.ThirdStageActivity">
+
+    <com.example.lonelywolf.grid.MyGridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:id="@+id/mpText"/>
+
+    <ImageButton
+        android:id="@+id/button_cancel"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/cancelbutton"
+        android:visibility="invisible"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shoe" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="160dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/junwangdun" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/junwangjian" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="240dp"
+        android:background="@drawable/faqiuicon" />
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="320dp"
+        android:background="@drawable/bloodicon" />
+
+    <ImageButton
+        android:id="@+id/button6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="400dp"
+        android:background="@drawable/resticon" />
+
+    <ImageButton
+        android:id="@+id/button7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="480dp"
+        android:background="@drawable/wolficon" />
+
+    <ImageButton
+        android:id="@+id/button01"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/bite"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/button02"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:background="@drawable/haojiao"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/button03"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="160dp"
+        android:background="@drawable/gulangsoul"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/button04"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="240dp"
+        android:background="@drawable/thundericon"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/button05"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="320dp"
+        android:background="@drawable/hongyuicon"
+        android:visibility="invisible"/>
+</RelativeLayout>

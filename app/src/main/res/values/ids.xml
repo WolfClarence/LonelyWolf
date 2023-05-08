@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id_changmao" type="id"/>
+    <item name="id_enemy" type="id"/>
+    <item name="id_greenRect" type="id"/>
+    <item name="id_hpBar" type="id" />
+    <item name="id_hpValue" type="id" />
+    <item name="id_hero" type="id" />
+    <item name="id_hpBar0" type="id" />
+    <item name="id_hpBar1" type="id" />
+    <item name="id_hpValue0" type="id" />
+    <item name="id_hpValue1" type="id" />
+    <item name="id_enemy0" type="id" />
+    <item name="id_enemy1" type="id" />
+    <item name="id_skillfield" type="id" />
+    <item name="id_faqiu" type="id" />
+    <item name="id_whirlwind" type="id" />
+    <item name="id_descriptionfield" type="id" />
+    <item name="id_ghoststrike" type="id" />
+    <item name="id_texiao1" type="id" />
+    <item name="id_kingSword" type="id" />
+    <item name="id_blood" type="id" />
+    <item name="id_ice" type="id" />
+    <item name="id_waveSpin" type="id" />
+</resources>

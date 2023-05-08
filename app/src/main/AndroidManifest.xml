@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lonelywolf">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/wolftubiao"
+        android:label="孤独的狼"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".stageEndActivities.FirstStageEndActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".stageEndActivities.SixthStageEndActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".stageIntroActivities.ThirdStageIntroActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".stageIntroActivities.SecondStageIntroActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".stageIntroActivities.ForthStageIntroActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".stageIntroActivities.FifthStageIntroActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".stageIntroActivities.SixthStageIntroActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".stageActivities.SixthStageActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".stageActivities.FifthStageActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".stageActivities.ForthStageActivity"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".stageActivities.ThirdStageActivity"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".otherActivities.VictoryActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".stageActivities.SecondStageActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".otherActivities.StageChooseActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".otherActivities.HomePageActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".stageIntroActivities.FirstStageIntroActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".otherActivities.DefeatActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".stageActivities.FirstStageActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

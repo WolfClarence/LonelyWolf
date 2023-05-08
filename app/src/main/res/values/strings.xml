@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LonelyWolf</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_8">本游戏中，你将操控英雄与各种敌人进行战斗。英雄具有8体力，释放技能将消耗体力，体力耗尽则进入敌人回合。消灭所有敌人则关卡胜利，
+        英雄死亡则关卡失败。点击技能图标可以查看技能介绍，手指松开会出现绿色提示网格以选择技能的目标，点击绿色网格即可释放技能。如果不想释放，点击右上角的取消按钮，
+        即可取消释放。点击英雄或敌人图片即可查看他们的属性。第四幕为剧情杀，无法获得胜利。</string>
+    <string name="_9" >
+        制作团队：宋宇轩，左天伦，孟辰宇，周柏均，张皓
+        联系方式：2063980370@qq.com
+    </string>
+</resources>

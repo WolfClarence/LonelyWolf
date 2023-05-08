@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/whirlwind1" android:duration="45"/>
+    <item
+        android:drawable="@drawable/xuanfeng1" android:duration="45"/>
+    <item
+        android:drawable="@drawable/whirlwind2" android:duration="45"/>
+    <item
+        android:drawable="@drawable/xuanfeng2" android:duration="45"/>
+    <item
+        android:drawable="@drawable/whirlwind3" android:duration="45"/>
+    <item
+        android:drawable="@drawable/xuanfeng3" android:duration="45"/>
+    <item
+        android:drawable="@drawable/whirlwind4" android:duration="45"/>
+    <item
+        android:drawable="@drawable/xuanfeng" android:duration="45"/>
+</animation-list>
